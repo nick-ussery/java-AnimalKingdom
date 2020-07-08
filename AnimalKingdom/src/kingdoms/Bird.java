@@ -24,6 +24,6 @@ public class Bird extends Animal
     @Override
     public String toString()
     {
-        return "Animal: " + name + "Moves by: " + move() + " Breathes with:  " + breathe() + " Reproduces by " + reproduce();
+        return "id:" + id + " Name:" + name + " yearNamed:" + year;
     }
 }

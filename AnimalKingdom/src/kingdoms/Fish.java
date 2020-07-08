@@ -24,6 +24,6 @@ public class Fish extends Animal
     @Override
     public String toString()
     {
-        return "Animal: " + name + " Movement: " + move() + " Breathes with:  " + breathe() + " Reproduces by " + reproduce();
+        return "id:" + id + " Name:" + name + " yearNamed:" + year;
     }
 }

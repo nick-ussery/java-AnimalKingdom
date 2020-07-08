@@ -1,6 +1,6 @@
 package kingdoms;
 
-abstract class Animal
+public abstract class Animal
 {
     private static int maxId =0;
     protected int id;
@@ -30,8 +30,8 @@ abstract class Animal
         {
             return year;
         }
-//    abstract String getMove();
-//    abstract String getReproduce();
-
+    abstract String move();
+    abstract String reproduce();
+    abstract String breathe();
 
 }

@@ -24,6 +24,6 @@ public class Mammal extends Animal
     @Override
     public String toString()
     {
-        return "Animal: " + name + "Moves by: " + this.move() + " Breathes with:  " + this.breathe() + " Reproduces by " + this.reproduce();
+        return "id:" + id + " Name:" + name + " yearNamed:" + year;
     }
 }
